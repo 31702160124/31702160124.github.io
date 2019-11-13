@@ -35,6 +35,18 @@
 				z-index: 1002;
 				overflow-y: scroll;
 			}
+			
+			#show img {
+				height: auto;
+				width: 32%;
+				position: relative;
+				top: 50%;
+				transform: translate(0, -50%);
+				-ms-transform: translate(0, -50%);
+				-moz-transform: translate(0, -50%);
+				-webkit-transform: translate(0, -50%);
+				-o-transform: translate(0, -50%);
+			}
 		</style>
 	</head>
 
@@ -89,7 +101,7 @@
 		<div style="margin:0 auto;width:20px;line-height: 24px;position: absolute;left:50px;top: 50px;">点击图片可以放大</div>
 
 		<div id="show" style="background-color: rgba(0,0,0,0.8);">
-			<img src="" id="img1" style="height: auto;width: 32%;position: relative;top: 50%;transform: translate(0,-50%);">
+			<img src="" id="img1">
 		</div>
 
 	</body>
